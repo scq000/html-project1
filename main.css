@@ -4,38 +4,31 @@ body {
   background: url(bg.jpg) no-repeat fixed;
   background-size: cover;
 }
-
 .header {
   width: 1100px;
-  height:170px;
+  height: 170px;
   background: url(header-bg.jpg) no-repeat;
   background-size: 100% auto;
   margin: 110px auto 0 auto;
-
 }
-
 .header h1 {
   font-size: 40px;
   color: rgb(102, 45, 45);
   font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
   text-align: center;
   margin: -40px
-
 }
-
 .avator {
   width: 135px;
   height: 135px;
-  border-radius:  100%;
+  border-radius: 100%;
   background: url(avator.jpg);
   background-size: 100%;
   position: relative;
   top: -67px;
   margin: 0 auto;
-  border:  3px solid white;
-
+  border: 3px solid white;
 }
-
 #menu {
   width: 1100px;
   height: 50px;
@@ -44,7 +37,6 @@ body {
   padding: 0;
   text-align: center;
 }
-
 #menu>li {
   list-style: none;
   color: #white;
@@ -53,50 +45,39 @@ body {
   height: 50px;
   margin: 0 100px 0 100px;
 }
-
 #menu>li a {
   text-decoration: none;
   color: white;
 }
-
 #menu>li a:hover {
   text-decoration: underline;
 }
-
 .detail {
   width: 1100px;
   height: 3000px;
   margin: 0 127px 0 127px;
   background-color: white;
 }
-
 .what-i-do {
   height: 500px;
-  position:relative;
+  position: relative;
 }
-
 .education {
   height: 930px;
 }
-
 .photos {
   height: 615px;
 }
-
 .get-in-touch {
   height: 440px;
-
 }
-
 .leave-message {
   height: 520px;
 }
-
 .spearator-line {
   width: 1100px;
   border: 1px solid rgb(199, 188, 188);
 }
-
 .underline {
   height: 3px;
   width: 70px;
@@ -104,118 +85,131 @@ body {
   text-align: center;
   background-color: black;
 }
-
 .title {
   padding-top: 50px;
   text-align: center;
   font-family: 'open sans', helvetica, arial, 'Microsoft YaHei', 微软雅黑, STXihei, 华文细黑, sans-serif;
-font-size: 28px;
-font-style: normal;
-font-weight: 300;
-letter-spacing: 3px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 3px;
 }
-
 .introduce {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
 #items {
-  position:absolute;
+  position: absolute;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 100px;
 }
-
 #items>li {
   text-align: center;
   display: inline-block;
   width: 300px;
   height: 200px;
 }
-
 .item-name {
   margin: 20px;
 }
-
-
 .photo-galary {
   text-align: center;
   margin-bottom: 20px;
 }
-
 .photo-galary img {
   width: 220px;
   height: 170px;
   margin: 0px 5px 5px 5px;
 }
-
 .img-line {
   padding-top: 25px;
 }
-
 .contact-way {
   position: relative;
   text-align: center;
 }
-
 .contact-way li {
   display: inline-block;
   margin: 50px 20px auto;
 }
-
 .guest-form {
-  margin: 50px auto auto auto;
+  width: 40%;
+  height: 250px;
   text-align: center;
+  margin: 50px auto 0px auto;
+  list-style-type: none;
 }
-
-.guest-form>div {
-    margin: 0px auto 35px auto;
+.guest-form >li {
+  height: 50px;
+  margin: 20px auto;
 }
-
-.guest-form label {
-    margin-right: 20px;
+.input-formation {
+  text-align: center;
+  width: 300px;
+  margin: 0 auto;
+  display: inline-block;
 }
-
+.input-formation .input-label {
+  float: left;
+}
+.input-text input {
+  height: 25px;
+  width: 170px;
+  border: 1px solid rgb(186, 176, 176);
+  border-radius: 4px;
+}
+.input-text textarea {
+  margin-left: -16px;
+  width: 170px;
+  border: 1px solid rgb(186, 176, 176);
+  border-radius: 4px;
+}
+.submit-button {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  margin: 20px auto auto auto;
+}
+.submit-button button {
+  width: 250px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  background-color: yellow;
+}
 .text-css {
   text-align: center;
   font-family: Comic Sans MS;
-   line-height: 1.4;
-   font-weight: normal;
-   font-stretch: normal;
-   font-variant: small-caps;
-   font-size: 16px;
+  line-height: 1.4;
+  font-weight: normal;
+  font-stretch: normal;
+  font-variant: small-caps;
+  font-size: 16px;
 }
-
 .experience-content {
   list-style-type: none;
 }
-
-.experience-content > li{
+.experience-content > li {
   width: 800px;
   height: 210px;
   margin: 50px 140px auto auto;
-
 }
-
-.experience-content  img {
+.experience-content img {
   width: 220px;
   height: 220px;
   float: left;
 }
-
 .experience-content .content {
   height: 220px;
   width: 550px;
   margin: 0px 0px auto auto;
 }
-
 .experience-content .content .title {
   padding-top: 0px;
   font-size: 20px;
 }
-
 .time {
   margin-top: 20px;
   text-align: center;
@@ -225,7 +219,6 @@ letter-spacing: 3px;
   font-family: inherit;
   font-weight: bold;
 }
-
 .description {
   text-align: center;
   margin-top: 20px;
